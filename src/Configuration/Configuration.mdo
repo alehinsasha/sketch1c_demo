@@ -39,4 +39,9 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <roles>Role.ПолныеПрава</roles>
+  <catalogs>Catalog.Организации</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <documents>Document.ПоступлениеТоваровУслуг</documents>
 </mdclass:Configuration>
