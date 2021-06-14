@@ -1,39 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="743b380d-0ac4-4cad-abbb-c26635009034">
-  <name>ЭскизДемо</name>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e71cb517-20c7-440a-a7da-141fe6cf7750">
+  <name>ДемоЭскиз</name>
   <synonym>
     <key>ru</key>
     <value>Эскиз (демо)</value>
   </synonym>
-  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="771d09d8-b81f-4598-8c38-c648cd8584e0"/>
-  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="4f26e404-1325-4a15-9a48-5112e284559d"/>
-  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="3a4b4034-336d-4535-bc02-687b2840532b"/>
-  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="918a1a11-d3f0-4048-955d-7bc5dd36a7a9"/>
-  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="0e47fb32-0d8f-4403-8ec1-3cf51492eee1"/>
-  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="62dfcdd9-847d-4cbc-8d18-480b11e13e5f"/>
-  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="00d9045b-4d64-4bca-a270-4d90db984f4b"/>
-  <configurationExtensionCompatibilityMode>8.3.19</configurationExtensionCompatibilityMode>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="497e7931-3d03-4d74-b180-fb126ef1e23f"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="77783d01-524f-4c99-b1cb-427496221eb0"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="48dda282-a836-4c42-bb43-e60509cc35b7"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="1b801d82-ba50-43c7-8723-288e2874460d"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="7fd1d86a-28c3-4e54-8032-7b1fc09e5b2c"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="cb77b79b-7d33-42f2-a9bf-65677fe489a8"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="9c2cff8c-e5aa-4339-831a-a00e1117c336"/>
+  <configurationExtensionCompatibilityMode>8.3.17</configurationExtensionCompatibilityMode>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
-  <usedMobileApplicationFunctionalities>
-    <functionality>
-      <use>true</use>
-    </functionality>
-    <functionality>
-      <functionality>OSBackup</functionality>
-      <use>true</use>
-    </functionality>
-  </usedMobileApplicationFunctionalities>
+  <requiredMobileApplicationPermissions>
+    <permission>AllowOSBackup</permission>
+    <use>true</use>
+  </requiredMobileApplicationPermissions>
   <defaultLanguage>Language.Русский</defaultLanguage>
-  <logo/>
-  <splash/>
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <modalityUseMode>DontUse</modalityUseMode>
   <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
-  <compatibilityMode>8.3.19</compatibilityMode>
-  <languages uuid="180d47ef-33ed-4e95-ae72-f5be3bed234c">
+  <compatibilityMode>8.3.17</compatibilityMode>
+  <languages uuid="8bb94e25-19cd-42b6-a683-51106f9ab1de">
     <name>Русский</name>
     <synonym>
       <key>ru</key>
@@ -42,8 +35,8 @@
     <languageCode>ru</languageCode>
   </languages>
   <roles>Role.ПолныеПрава</roles>
-  <catalogs>Catalog.Организации</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Организации</catalogs>
   <documents>Document.ПоступлениеТоваровУслуг</documents>
 </mdclass:Configuration>

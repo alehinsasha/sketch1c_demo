@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6375feb1-c313-475b-b244-118c6828a417">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fa308e62-710b-4544-84fe-7574a34c81f1">
   <producedTypes>
-    <objectType typeId="b6ed1e15-30a2-4717-8fae-746f775b1498" valueTypeId="edc0b04a-7502-41a8-a853-d2f64e118bf5"/>
-    <refType typeId="ca661467-748f-42c7-9aa4-815bb2db5056" valueTypeId="e1d1048e-5ec8-4121-82f1-d403aec49c3c"/>
-    <selectionType typeId="17d60c94-4a8f-46b7-833b-0aac5fd5be2f" valueTypeId="5d6db74e-0f49-4e28-ad96-e1a55fc19b2b"/>
-    <listType typeId="57886112-e908-41e0-a2bc-4fbbc7a78bec" valueTypeId="653bbae8-3b7a-4e3d-9d33-262d76806dff"/>
-    <managerType typeId="bed15f3d-b7fa-436d-9dbc-d78cad93b815" valueTypeId="6ec1b05a-26c6-4a69-827e-fcb1572343c5"/>
+    <objectType typeId="8797a4a0-7090-4edb-9849-fe8943664aff" valueTypeId="e7e3757d-0d99-4194-b0b9-1cfc6c21f45c"/>
+    <refType typeId="bac4bb68-9011-465d-a4e0-56bef10f3ba5" valueTypeId="64c6ecea-a846-48a0-bec1-dd0a7a1cab86"/>
+    <selectionType typeId="d786183a-62d3-4412-accd-ece7241b7b69" valueTypeId="308493af-06da-4879-92ce-7506c3a5f83c"/>
+    <listType typeId="18540a91-7470-4f40-9d1b-355a1f21b24e" valueTypeId="53e1a147-c6f6-431f-9899-ed124c4c9d3e"/>
+    <managerType typeId="11911fe6-6200-4797-8683-1aff704bc73a" valueTypeId="70913245-784e-4a30-97dc-153a869c6860"/>
   </producedTypes>
   <name>ПоступлениеТоваровУслуг</name>
   <synonym>
@@ -23,11 +23,9 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
-  <defaultObjectForm>Document.ПоступлениеТоваровУслуг.Form.ФормаДокумента</defaultObjectForm>
-  <defaultListForm>Document.ПоступлениеТоваровУслуг.Form.ФормаСписка</defaultListForm>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
-  <attributes uuid="cacbe52d-0ae9-45b1-bc40-296520c8de0d">
+  <attributes uuid="414e5c31-1124-4774-9176-bedf181d8e57">
     <name>Организация</name>
     <synonym>
       <key>ru</key>
@@ -42,7 +40,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="ea7e294c-d940-4e1a-8970-428216cc20d9">
+  <attributes uuid="60ab609a-fab7-48d7-bae3-e1cc81bfe54b">
     <name>Контрагент</name>
     <synonym>
       <key>ru</key>
@@ -57,35 +55,17 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="3a07ece0-d596-42eb-bbbd-2421c5d68cad">
-    <name>ФормаДокумента</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма документа</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
-  <forms uuid="54322365-0de7-4485-988c-957b5bcc4bd7">
-    <name>ФормаСписка</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма списка</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
-  <tabularSections uuid="df60f450-7da1-43c0-8636-2ac1b08cc630">
+  <tabularSections uuid="8fbe2ea8-4487-41be-845b-6e4d280f5ba6">
     <producedTypes>
-      <objectType typeId="24259d7c-746a-45dc-9281-08a072bc18a8" valueTypeId="ff69b371-e5e1-4efc-bc4d-f9637d558e2a"/>
-      <rowType typeId="b175049f-61db-4dca-8f52-edf8b47cc36b" valueTypeId="7e3ff5be-e7ff-4114-984c-630240ff0434"/>
+      <objectType typeId="df215285-8bc6-482c-a19f-293d315b4597" valueTypeId="ac8ddf4a-6e92-497d-b5b6-bed3e2c0fdf0"/>
+      <rowType typeId="4356155c-8a90-4776-8104-de609cee838f" valueTypeId="4f868d5c-566e-4896-9895-8e83ba9454c6"/>
     </producedTypes>
     <name>Товары</name>
     <synonym>
       <key>ru</key>
       <value>Товары</value>
     </synonym>
-    <attributes uuid="18bac36f-aa21-4dbe-b357-264d58ec3892">
+    <attributes uuid="a0a78e6c-066c-4fda-8f7d-3f9cfc590587">
       <name>Номенклатура</name>
       <synonym>
         <key>ru</key>
@@ -99,7 +79,7 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="3ab60218-8da1-4aa0-993b-6a87ef4b5b04">
+    <attributes uuid="fd04076d-de02-48c4-8903-6b2e75aff63d">
       <name>Количество</name>
       <synonym>
         <key>ru</key>
@@ -108,7 +88,7 @@
       <type>
         <types>Number</types>
         <numberQualifiers>
-          <precision>15</precision>
+          <precision>12</precision>
           <scale>3</scale>
         </numberQualifiers>
       </type>
@@ -117,7 +97,7 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="16ed3d54-45a6-4feb-b3b5-5c38e46f832d">
+    <attributes uuid="08d720b9-b24a-4fbc-910c-ab6d805ace3b">
       <name>Сумма</name>
       <synonym>
         <key>ru</key>

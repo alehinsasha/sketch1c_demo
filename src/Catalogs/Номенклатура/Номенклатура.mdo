@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a84d3183-2fc6-41d0-b470-a55c396ad024">
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="94837631-a8a8-4b81-b321-95303d7736e9">
   <producedTypes>
-    <objectType typeId="b23d07ae-0bf9-4ef6-8fa9-674890fa9fd8" valueTypeId="153f780e-e2a1-4165-b08f-091aef5e36ae"/>
-    <refType typeId="5ea929be-97e9-41f0-87c2-03cc0e4e8106" valueTypeId="4a24f1e0-b2ab-45d6-bcfd-204594ac0b84"/>
-    <selectionType typeId="9d716e6f-ada8-4957-8b0b-dba5247023d8" valueTypeId="7701c147-2dbb-46d5-b075-1e97d5386cd6"/>
-    <listType typeId="bfe0150d-3469-4ab9-8b93-67b8b965b365" valueTypeId="b3811d4d-fabd-4113-813f-f0db3ef5bc83"/>
-    <managerType typeId="e1ea7929-af3d-461d-87b1-ac8b66241350" valueTypeId="8fad3b63-5f03-4afa-8f83-71ea224df75d"/>
+    <objectType typeId="4ab98a1f-30ea-4b13-a6d5-5f227123ba14" valueTypeId="59b83eed-66ca-437b-a4bc-cf1ed084651f"/>
+    <refType typeId="ed2aa7d4-6168-426f-b273-cc5910dae5f4" valueTypeId="b8d714c9-22a9-4bab-bd27-8ce05cdc4b60"/>
+    <selectionType typeId="bbe072b5-3765-4cee-a9a9-b302c492d765" valueTypeId="9c926672-0dd8-4fee-b9b0-fbf6762ce456"/>
+    <listType typeId="90df971b-208b-4a25-a4aa-8e7cbb30f7eb" valueTypeId="57ed9621-b68a-4888-accf-094a8095aa04"/>
+    <managerType typeId="6865015e-986d-4794-860f-4ac8182597c6" valueTypeId="dbc8ac13-b2ba-4df9-b654-e3156f39adab"/>
   </producedTypes>
   <name>Номенклатура</name>
   <synonym>
