@@ -38,5 +38,7 @@
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Организации</catalogs>
+  <catalogs>Catalog.Договоры</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
   <documents>Document.ПоступлениеТоваровУслуг</documents>
 </mdclass:Configuration>
